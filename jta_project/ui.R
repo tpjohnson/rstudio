@@ -16,7 +16,7 @@ require(visNetwork)
 require(rgl)
 
 # data loading ----
-setwd("C:\Users\Trevor.JTAWEB\Desktop\asdf\rstudio\jta_project")
+setwd("C:/Users/Trevor.JTAWEB/Desktop/asdf/rstudio/jta_project")
 data <- fread("scrambledData.csv")
 data[, V1 := NULL]
 a <- data
