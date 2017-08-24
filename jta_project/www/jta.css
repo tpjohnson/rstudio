@@ -1,0 +1,72 @@
+/* css */
+/* JTA Shiny app style */
+
+/* JTA hex codes: yellow: #eead0e, orange: #ee7600, red: #ee5c42  */
+/* Other possbily good colors: black: #000000 , maroon: #8F0B04, grey: #8F8F8F, green-apple: #A1A100, rose-pink: #D1044C */
+/* from jtaweb.net faded-orange: #D9941C, dark-grey: #393939, dark-rusty: #CD6731 */
+
+/* TITLES */
+/* Top Left Corner title font */
+.main-header .logo{
+font-family: calibri, sans-serif;
+font-style: normal;
+font-weight: lighter;
+font-size: 23px;
+color: #ad1d28;
+}
+
+/* Top Bar options */
+.skin-blue .main-header .logo         {background-color: #ee7600} /* Top left corner title box color */
+.skin-blue .main-header .logo:hover   {background-color: #cc6600} /* Top left corner title box color when hovered */
+.skin-blue .main-header .navbar       {background: linear-gradient(to right, #ee7600, #cc6600);} /* Main big horizontal bar at the top color */
+.skin-blue .main-header .navbar:hover {background-color: #ee7600} /* change the 3 line box when hovered color */
+.skin-blue .main-header .navbar .sidebar-toggle:hover{background-color: #cc6600}
+
+/* Left side tabs */
+.skin-blue .main-sidebar .sidebar .sidebar-menu .active a {border-left-color: #ee5c42}
+.skin-blue .main-sidebar .sidebar .sidebar-menu a:hover   {border-left-color: #ee5c42}
+.skin-blue .main-sidebar                                  {border-left-color: #ee5c42}
+.skin-blue .main-sidebar .sidebar .sidebar-menu a         {border-left-color: #ee5c42}
+.skin-blue .main-header .navbar .sidebar-toggle:hover     {border-left-color: #ee5c42}
+
+/* box() color, use status = "danger" */
+.box.box-solid.box-danger>.box-header {color: #ffffff; background: #ee7600}
+.box.box-danger                       {border-top-color: #ee5c42}
+.box.box-solid.box-danger             {border: 1px solid #ee7600;}
+
+/* sliderInput */
+.irs-line-left  {background: #ffffff; border-top: #ffffff; border-bottom: #ffffff}
+.irs-line-mid   {background: #ffffff; border-top: #ffffff; border-bottom: #ffffff}
+.irs-line-right {background: #ffffff; border-top: #ffffff; border-bottom: #ffffff}
+.irs-min        {background: #ffffff}
+.irs-max        {background: #ffffff}
+.irs-single     {background: #D9941C}
+.irs-from       {background: #D9941C}
+.irs-to         {background: #D9941C}
+.irs-bar        {border-top: #D9941C; border-bottom: #D9941C; background: #D9941C}
+.irs-bar-edge   {border: #D9941C; background: #D9941C}
+
+/* actionButton & fileInput */
+.btn-default              {background-color: #E7E7E7; border-color: #b3b3b3; color: #000000}
+.btn-default:hover        {background-color: #d9d9d9; border-color: #000000; color: #000000}
+.btn-default:focus        {background-color: #d9d9d9; border-color: #000000; color: #000000}
+.btn-default:active       {background-color: #d9d9d9; border-color: #000000; color: #000000}
+.btn-default:active:focus {background-color: #d9d9d9; border-color: #000000; color: #000000}
+.btn-default:active:hover {background-color: #d9d9d9; border-color: #000000; color: #000000}
+
+/* submitButton */
+.btn-primary              {background-color: #E7E7E7; border-color: #b3b3b3; color: #000000}
+.btn-primary:hover        {background-color: #d9d9d9; border-color: #000000; color: #000000}
+.btn-primary:focus        {background-color: #d9d9d9; border-color: #000000; color: #000000}
+.btn-primary:active       {background-color: #d9d9d9; border-color: #000000; color: #000000}
+.btn-primary:active:focus {background-color: #d9d9d9; border-color: #000000; color: #000000}
+
+/* fileInput() progress bar color */
+.progress-bar {background-color: #D9941C}
+
+
+/* tabBox() colors */
+.nav-tabs-custom>.nav-tabs>li.active {border-top-color: #ee5c42;}
+/* .nav-tabs-custom>.nav-tabs {border-bottom-color: #ee7600; border-top-right-radius: 3px; border-top-left-radius: 3px;}
+
+
